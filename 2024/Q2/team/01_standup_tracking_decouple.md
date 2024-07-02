@@ -81,3 +81,14 @@ The standup tracking application consists of the following modules and component
 5. **Reporting and Analytics**: Generates reports and analytics to visualize team performance and productivity.
 
 6. **Trackify Integration**: Integrates with Trackify to access user data, track time spent on tasks, and synchronize standup meeting information.
+
+
+## Application development detail
+
+The standup tracking application is developed using python. Currently, the application is in the development phase and the following features are being implemented:
+
+- List out all roles for user
+- List out all projects 
+- List out all users with associated projects in metadata
+
+Currently the code is deployed in lambda function. Only dedicated IP addresses with specified secret server key can access the lambda function. 
