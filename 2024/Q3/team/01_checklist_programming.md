@@ -52,9 +52,9 @@ Creating a checklist for standard programming techniques can help guarantee code
 - [ ]  Input Validation
     - Validate and sanitize user inputs to prevent common security vulnerabilities like SQL injection, XSS, and CSRF attacks.
 - [ ]  Use Parameterized Queries/Prepared Statements
-    Ensure that all database queries are parameterized to avoid SQL injection attacks
+    - Ensure that all database queries are parameterized to avoid SQL injection attacks
 - [ ]  Escape Output for HTML/JavaScript
-    Escape any user-generated data that is rendered on the frontend to prevent XSS attacks
+    - Escape any user-generated data that is rendered on the frontend to prevent XSS attacks
 - [ ]  Sensitive Data Encryption
     - Encrypt sensitive data (e.g., passwords, personal information) in storage and transit. Avoid storing sensitive data in plain text
 - [ ]  Use Strong Authentication
